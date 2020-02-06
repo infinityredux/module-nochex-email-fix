@@ -1,0 +1,14 @@
+{
+  "name"        : "infinityredux/module-nochex-email-fix",
+  "description" : "Resolve the need to manually replace a file in a composer installed module.",
+  "type"        : "magento2-module",
+  "require"     : {
+    "magento/module-sales" : "^102.0.4"
+  },
+  "autoload"    : {
+    "files"         : [ "registration.php" ],
+    "psr-4"         : {
+      "InfinityRedux\\NochexEmailFix\\": ""
+    }
+  }
+}
